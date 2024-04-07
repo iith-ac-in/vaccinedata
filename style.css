@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+html { 
+    background: url(background.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.title{
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    border: none;
+    border-radius: 1mm;
+    box-shadow: 0.5mm 0.5mm;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    display: flex;
+    justify-content: center;
+    background-color: #E0E0E0;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 40vh;
+    width: 95vh;
+    margin-top: 10vh;
+    border-radius: 1mm;
+}
+
+.logo{
+    height: 8vh;
+}
+ .imgcontainer{
+    text-align: center;
+ }
+
+ .dashcontainer{
+    text-align: right;
+ }
+
+ .dash{
+    margin-right: 10rem;
+    margin-top: 1rem;
+ }
+
+ .google{
+    height: 4.5vh;
+    
+ }
+
+ p{
+    padding-left: 3vh;
+ }
+
+ b{
+    font-size: x-large;
+ }
